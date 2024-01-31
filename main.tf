@@ -157,7 +157,7 @@ resource "azurerm_network_security_group" "domainnsg" {
     protocol = "Tcp"
     source_port_range = "3389"
     destination_port_range = "*"
-    source_address_prefixes = ["31.28.90.130", "45.88.112.105", "50.208.183.113"]
+    source_address_prefixes = [""]
     destination_address_prefix = "VirtualNetwork"
   }
 
